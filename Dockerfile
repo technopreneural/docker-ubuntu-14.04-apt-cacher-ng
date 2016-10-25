@@ -1,4 +1,4 @@
-FROM		ubuntu/ubuntu:14.04
+FROM		ubuntu:14.04
 MAINTAINER	technopreneural@yahoo.com
 
 VOLUME		["/var/cache/apt-cacher-ng"]
