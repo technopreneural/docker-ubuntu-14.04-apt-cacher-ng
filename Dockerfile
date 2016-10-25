@@ -1,6 +1,8 @@
 FROM		ubuntu:14.04
 MAINTAINER	technopreneural@yahoo.com
 
+ENV		DEBIAN_FRONTEND=noninteractive
+
 VOLUME		["/var/cache/apt-cacher-ng"]
 RUN		apt-get -y update && apt-get install -y apt-cacher-ng
 
