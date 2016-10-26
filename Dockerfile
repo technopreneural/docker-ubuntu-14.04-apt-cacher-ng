@@ -5,7 +5,7 @@ VOLUME		["/var/cache/apt-cacher-ng"]
 
 EXPOSE  	3142
 
-ENV		http_proxy http://acng.robin.dev:3142
+#ENV		http_proxy http://acng.robin.dev:3142
 
 RUN		apt-get update \
 		&& DEBIAN_FRONTEND=noninteractive apt-get install -y \
